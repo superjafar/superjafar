@@ -17,10 +17,10 @@
 
 ```python
 class introduction:
-      def __init__(self, nama, umur, kerjaan):
+      def __init__(self, nama, umur, status):
           self.nama   = nama
           self.umur   = umur
-          self.status = kerjaan
+          self.status = status
 
       def info(self):
           print("Nama : ", self.nama)
