@@ -27,7 +27,7 @@ class introduction:
           print("Umur : ", self.umur)
           print("Asal : ", self.status)
 
-jafar = introduction("Jafar", 18, "Mahasiswa")
+jafar = introduction("Jafar", 19, "Mahasiswa")
 
 jafar.info()
  ```
