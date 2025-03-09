@@ -17,17 +17,17 @@
 
 ```python
 class introduction:
-      def __init__(self, nama, umur, daerah):
-          self.nama = nama
-          self.umur = umur
-          self.asal = daerah
+      def __init__(self, nama, umur, kerjaan):
+          self.nama   = nama
+          self.umur   = umur
+          self.status = kerjaan
 
       def info(self):
           print("Nama : ", self.nama)
           print("Umur : ", self.umur)
-          print("Asal : ", self.asal)
+          print("Asal : ", self.status)
 
-jafar = introduction("Jafar", 18, "Banyumas")
+jafar = introduction("Jafar", 18, "Mahasiswa")
 
 jafar.info()
  ```
